@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function(){
   let loadButton = document.getElementById('loadinfo');
   if (loadButton){
     loadButton.addEventListener('click', function(){
-      loadWeekForecastData();
+      loadWeekForecastData('guayaquil');
     })
   }
 })
